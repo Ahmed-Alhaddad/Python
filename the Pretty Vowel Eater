@@ -1,3 +1,5 @@
+word_without_vowels = ""
+
 user_word = input()
 user_word = user_word.upper()
 for letter in user_word:
@@ -12,7 +14,10 @@ for letter in user_word:
     elif(letter == 'U'):
         continue
     else:
-        print(letter,end="")
+        word_without_vowels += letter            #you can use print(letter,end="")
+
+print(word_without_vowels)
+        
 
 
 
