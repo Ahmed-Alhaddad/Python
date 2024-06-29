@@ -1,0 +1,10 @@
+c = int(input())
+count = 0
+while c != 1:
+	if (c % 2 == 0) or (c != 0):
+		c = c / 2
+	else:
+		c = 3 * c +1
+	counr+=1
+steps = count
+print("steps = ", count)
