@@ -1,10 +1,14 @@
 c = int(input())
 count = 0
-while c != 1:
-	if (c % 2 == 0) or (c != 0):
-		c = c / 2
-	else:
-		c = 3 * c +1
-	counr+=1
-steps = count
-print("steps = ", count)
+if c > 0:
+    while c != 1:
+	    if (c % 2 == 0):
+		    c = c / 2
+	    else:
+		    c = 3 * c +1
+	    print(int(c))
+	    count += 1
+    steps = count
+    print("steps = ", count)
+else:
+    Print("Please check your input should be not Negative or Zero")
